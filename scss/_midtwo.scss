@@ -1,0 +1,41 @@
+.midtwo {
+  margin-top: 30px;
+  margin-bottom: 92px;
+  display: flex;
+  gap: 106px;
+  h4 {
+    color: $secondary-black;
+    font-size: 23px;
+    font-weight: 500;
+  }
+  h1 {
+    width: 579px;
+    margin-top: 30px;
+    font-size: 68px;
+    color: $secondary-brown;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 75px;
+  }
+  p {
+    margin-top: 25px;
+    width: 518px;
+    color: #826f8c;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 29px;
+  }
+  button {
+    @include mainBtn;
+    margin-top: 20px;
+  }
+  .slogan3 {
+    position: relative;
+    margin-top: 85px;
+    .arrow {
+      position: absolute;
+      left: 391px;
+      top: 350px;
+    }
+  }
+}

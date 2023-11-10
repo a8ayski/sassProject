@@ -1,0 +1,89 @@
+.hero {
+  display: flex;
+  margin-top: 70px;
+  gap: 32px;
+
+  .head {
+    display: flex;
+    align-items: center;
+
+    h4 {
+      margin-right: 2px;
+      color: $secondary-black;
+      font-size: 23px;
+      font-weight: 500;
+    }
+
+    img {
+      margin-top: 0;
+      margin-left: 29px;
+    }
+  }
+
+  .slogan {
+    font-size: 58px;
+    font-weight: bold;
+
+    h1:first-child {
+      font-size: 68px;
+      color: $secondary-brown;
+      font-style: normal;
+      font-weight: 700;
+    }
+
+    h1:last-child {
+      color: $secondary-black;
+    }
+  }
+
+  .hero-txt {
+    & * + * {
+      margin-top: 30px;
+    }
+
+    p {
+      width: 518px;
+      color: #826f8c;
+      font-size: 18px;
+      font-style: normal;
+      line-height: 29px;
+    }
+
+    button {
+      @include mainBtn;
+    }
+  }
+
+  .hero-img {
+    position: relative;
+
+    .card-vr {
+      background-color: rgba(255, 255, 255, 0.4);
+      position: absolute;
+      left: -60px;
+      max-width: 211px;
+      max-height: 95px;
+      border-radius: 10px;
+      font-size: 10px;
+      display: flex;
+      padding: 10px;
+      box-shadow: 2px 5px 20px $secondary-brown;
+
+      & * + * {
+        margin-top: 5px;
+      }
+
+      span {
+        font-size: 8px;
+      }
+
+      p {
+        color: $secondary-brown;
+      }
+
+      h5 {
+        color: $secondary-black;
+      }
+    }
+  }
+}
