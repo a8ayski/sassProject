@@ -31,30 +31,73 @@
       border-radius: 20px;
       padding-left: 46px;
       padding-top: 36px;
+      .krug {
+        display: none;
+      }
+      &:hover {
+        position: relative;
+        background-image: url(../assets/card2.png);
+        background-repeat: no-repeat;
+
+        width: 360px;
+        height: 518px;
+        margin-left: 42px;
+        padding-left: 46px;
+        padding-top: 51px;
+        h3 {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+        button {
+          margin-top: 55px;
+        }
+        .krug {
+          display: block;
+          position: absolute;
+          left: 291px;
+          top: 24px;
+        }
+      }
     }
     .card2 {
-      position: relative;
-      background-image: url(../assets/card2.png);
-      background-repeat: no-repeat;
-
+      margin-top: 20px;
+      background-color: #fbdacf;
       width: 360px;
-      height: 557px;
-      margin-left: 42px;
+      height: 537px;
+      margin-left: 38px;
+      border-radius: 20px;
       padding-left: 46px;
-      padding-top: 51px;
-      h3 {
-        color: #fff;
-      }
-      p {
-        color: #fff;
-      }
-      button {
-        margin-top: 55px;
-      }
+      padding-top: 36px;
       .krug {
-        position: absolute;
-        left: 291px;
-        top: 24px;
+        display: none;
+      }
+      &:hover {
+        position: relative;
+        background-image: url(../assets/card2.png);
+        background-repeat: no-repeat;
+
+        width: 360px;
+        height: 518px;
+        margin-left: 42px;
+        padding-left: 46px;
+        padding-top: 51px;
+        h3 {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+        button {
+          margin-top: 55px;
+        }
+        .krug {
+          display: block;
+          position: absolute;
+          left: 291px;
+          top: 24px;
+        }
       }
     }
     .card3 {
@@ -66,6 +109,35 @@
       border-radius: 20px;
       padding-left: 46px;
       padding-top: 36px;
+      .krug {
+        display: none;
+      }
+      &:hover {
+        position: relative;
+        background-image: url(../assets/card2.png);
+        background-repeat: no-repeat;
+
+        width: 360px;
+        height: 518px;
+        margin-left: 42px;
+        padding-left: 46px;
+        padding-top: 51px;
+        h3 {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+        button {
+          margin-top: 55px;
+        }
+        .krug {
+          display: block;
+          position: absolute;
+          left: 291px;
+          top: 24px;
+        }
+      }
     }
     h5 {
       padding-left: 5px;
